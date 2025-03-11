@@ -21,6 +21,6 @@ config=\
         }
 }
 "
-echo "This is Serein from Holberton School" | sudo tee /var/www/html/index.html
+echo "This is Sheilla from Holberton School" | sudo tee /var/www/html/index.html
 echo "$config" | sudo tee /etc/nginx/sites-available/default
 sudo service nginx restart
